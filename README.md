@@ -321,12 +321,12 @@ DAG Overview :
 
 Performance Results :
 
-Analyst query time (before) :	40 minutes (raw S3 scans)
-Analyst query time (after) :	< 3 minutes (Athena on gold Delta)
-Data quality score :	93% (30+ expectation checks)
-Deduplication rate :	~4% of incoming records removed
-Daily records processed :	~250,000 claims
-Pipeline SLA :	60 minutes
-Schema drift events handled :	Auto-detected by Glue crawlers
+* Analyst query time (before) :	40 minutes (raw S3 scans)
+* Analyst query time (after) :	< 3 minutes (Athena on gold Delta)
+* Data quality score :	93% (30+ expectation checks)
+* Deduplication rate :	~4% of incoming records removed
+* Daily records processed :	~250,000 claims
+* Pipeline SLA :	60 minutes
+* Schema drift events handled :	Auto-detected by Glue crawlers
 ---
 
